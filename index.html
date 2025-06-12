@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin Llerena Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><h1>Kevin Llerena</h1></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn icon">
+            </a>
+            <a href="https://github.com/your-username" target="_blank" aria-label="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub icon">
+            </a>
+        </div>
+      </ul>
+    </nav>
+
+  </header>
+
+  <section class="bio-section" id="bio">
+    <div class="bio-text">
+      <p>Senior IT Technician, leveraging skills in IT asset management, ticketing systems, and Office 365 to optimize technical operations. With a Bachelor's degree in Computer Science from New Jersey Institute of Technology and certifications including AWS Cloud Practitioner and Google Workspace Administrator, I contribute to modernizing IT workflows and enhancing system performance.</p>
+      <p>Prior roles, including Manager at Geek Squad, strengthened my technical leadership and problem-solving abilities, enabling me to support dynamic IT environments effectively. My certifications reflect a commitment to staying current with evolving technologies in cloud computing and workplace administration.</p>
+    </div>
+    <div class="main__img--container">
+          <img id="main__img" src="images/Headshot.JPG" class="circular-image"/>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="highlight">Credit Shield: Android application used to monitor payments on three credit cards to view interest accrued within a yearly timeline. The application offered three alternate timelines to view monthly payments such as min pay, batch, and priority. Min pay allowed the user to see how much interest was building monthly through graphs produced by user input of cards with a red line marking total interest gained. Batch allowed users to input a time frame in months to pay off all cards then displayed monthly payments needed in order to reach selected timeline. Priority allowed to user to input a monthly amount on a specified card while inputting minimum on other cards to focus payments. Last feature in application was recommendation tab that displayed credit card opportunities and rewards for sign up. </div>
+
+    <div class="card-grid" style="grid-template-columns: repeat(3, 1fr);">
+      <div class="card">Home Menu
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/homeMenu.jpg" class="demo__img"/>
+          </div>
+      </div>
+      <div class="card">Batch Mode
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/batchMode.jpg" class="demo__img"/>
+          </div>
+      </div>
+      <div class="card">Min Pay Graph
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/minPayGraph.jpg" class="demo__img"/>
+          </div>
+      </div>
+      <div class="card">Month Range
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/monthRange.jpg" class="demo__img"/>
+          </div>
+      </div>
+      <div class="card">Priority Pay
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/priorityPay.jpg" class="demo__img"/>
+          </div>
+      </div>
+      <div class="card">Priority Graph
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/priorityGraph.jpg" class="demo__img"/>
+          </div>
+      </div>
+    </div>
+
+    <div class="highlight2" style="margin-top: 3rem;">Python Grading Website: During my time at Rutgers university students were tasked with a group project to create a python website that was structured with a front, middle, and back-end developer. The goal was to create a login system for a student and teacher where a student would be able to take an online python exam then view their graded exam after it had been published by the professor. The professor would be able to create exams through a pool of questions they added through the site then publish exams and grade them leaving notes for the student on where their error occurred. The site ran python code in order to determine whether answers where correct and had test cases to verify variation in answers. All information was stored in back-end database where I organized info into appropriate tables and filtered them on requested queries. During my time at Rutgers university students were tasked with a group project to create a python website that was structured with a front, middle, and back-end developer. The goal was to create a login system for a student and teacher where a student would be able to take an online python exam then view their graded exam after it had been published by the professor. The professor would be able to create exams through a pool of questions they added through the site then publish exams and grade them leaving notes for the student on where their error occurred. The site ran python code in order to determine whether answers where correct and had test cases to verify variation in answers. All information was stored in back-end database where I organized info into appropriate tables and filtered them on requested queries. </div>
+
+    <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
+      <div class="card">Login Page
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/python grader/01-large.jpg" class="demo__img2"/>
+          </div>
+      </div>
+      <div class="card">Create an Exam
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/python grader/04-large.jpg" class="demo__img2"/>
+          </div>
+      </div>
+      <div class="card">Take Exam
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/python grader/16-large.jpg" class="demo__img2"/>
+          </div>
+      </div>
+      <div class="card">Grade Exam
+          <div class="main__img--container"> 
+            <img id="main__img" src="images/python grader/18-large.jpg" class="demo__img2"/>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="certs">
+    <h3>Certification Badges</h3>
+    <div class="certs">
+      <div class="main__img--container">
+          <img id="main__img" src="images/aws-certified-cloud-practitioner.png" class="circular-image"/>
+      </div>
+      <div class="main__img--container">
+          <img id="main__img" src="images/professional-google-workspace-administrator-certifi.1.png" class="circular-image"/>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="certs">
+    <h2>Experience</h2>
+    <p><strong>IT Technician</strong></p>
+    <p><strong>Senior IT Technician | Sharethrough | 2022:Current</strong></p>
+    <p> As a Senior IT Technician at Sharethrough, I manage asset lifecycle through Snipe-IT, overseeing inventory across Intune and Jamf, tracking device status, attaching invoice documentation, and coordinating with finance for asset liquidation and disposal. As a Google Workspace Administrator, I provision users and automate offboarding with GAM, handling SAML SSO, group management, shared drives, and email routing. I serve as the primary agent for the Jira Service Desk, integrating Slack via Assist, maintaining service desk visibility, and developing detailed Confluence documentation and user guides based on real support cases. In Jira project management, I support teams in creating and managing workflows using Kanban/Scrum boards, and implement automation for ticket routing, labeling, priority handling, and cross-project movement. I'm the lead architect of IT documentation, continuously updating entries related to MDM, inventory, automation, and process standards. I oversee onboarding/offboarding by ensuring timely equipment delivery, coordinating account access, conducting first-day IT training, and collaborating with managers to provision role-specific tools.</p>  
+  </section>
+</body>
+</html>
